@@ -974,7 +974,7 @@ input[type='checkbox'] {
 /*************************/
 .accordion .area-1 {
 	height: 27rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	background: url('../images/details-1-background.webp') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1050,7 +1050,23 @@ input[type='checkbox'] {
 	margin-left: 3.125rem;
 }
 
+.map-placement-01{
+	width: 600px;
+	height: 280px;
+}
 
+@media (max-width: 850px) {
+	.map-placement-01{
+		width: 350px;
+		height: 320px;
+	}
+}
+@media (max-width: 420px) {
+	.map-placement-01{
+		width: 320px;
+		height: 320px;
+	}
+}
 /*************************/
 /*     09. Details 2     */
 /*************************/
