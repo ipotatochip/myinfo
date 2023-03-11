@@ -1066,6 +1066,9 @@ input[type='checkbox'] {
 		width: 320px;
 		height: 320px;
 	}
+	a.back-to-top {
+		margin-right: 50px;
+	}
 }
 /*************************/
 /*     09. Details 2     */
