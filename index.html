@@ -50,6 +50,9 @@
             <meta name="msapplication-TileColor" content="#ffffff">
             <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
             <meta name="theme-color" content="#ffffff">
+	    
+	    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     
@@ -130,8 +133,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
-                            <h1><span id="js-rotating"></span>PATI AKHILESWAR</span></h1>
-                            <p  class="p-heading p-large"><b>Entrepreneur, Business Analyst, Digital Marketer and Web Developer</b></p>
+                            <h1>I am <span id="js-rotating" class="auto-input"></span></span></h1>
+                            <p  class="p-heading p-large"></p>
                             <p class="p-heading p-large">S/O <br><b>Maridayya and Vijaya</b></p>
                             <p  class="p-heading p-large">Born On 18-03-1995</p>
                             <a class="btn-solid-lg page-scroll" href="#education">DISCOVER MORE</a>
@@ -655,10 +658,19 @@
     </div> <!-- end of footer -->  
     <!-- end of footer -->
 
-
    
     	
     <!-- Scripts -->
+	    
+	<script>
+	    let typed = new Typed(".auto-input", {
+	      strings: ["Pati Akhileswar", "Entrepreneur", "Digital Marketer", "Web Developer", "UI Designer"],
+	      typeSpeed: 100,
+	      backSpeed: 100,
+	      loop: true
+	    })
+	  </script>
+	    
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
